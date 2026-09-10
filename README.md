@@ -9,11 +9,14 @@ inference.py           # Inference script
 models.py              # Conditional U-Net
 config.json            # Input normalization
 config_label.json      # Output inverse normalization
-diffussion_model.pth   # Trained model weights; add before running
+diffussion_model.pth   # Trained model weights; available from Releases
 requirements.txt
 input/                 # Input .npy files
 output/                # Saved results; created automatically
 ```
+## Model weights
+
+The trained model weights (`diffussion_model.pth`) are available from the GitHub Releases page.
 
 ## Input
 
